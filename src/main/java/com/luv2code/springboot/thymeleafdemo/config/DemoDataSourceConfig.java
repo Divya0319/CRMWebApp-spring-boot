@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 
 @Configuration
-@EnableJpaRepositories(basePackages= {"${spring.data.jpa.repositories.packages}"})
+@EnableJpaRepositories(basePackages= {"${spring.data.jpa.repository.packages}"})
 public class DemoDataSourceConfig {
 
 	@Primary
@@ -32,7 +32,7 @@ public class DemoDataSourceConfig {
 	
 	@Bean
 	@ConfigurationProperties(prefix="security.datasource")
-		public DataSource securityDataource() {
+		public DataSource securityDataSource() {
 			return DataSourceBuilder.create().build();
 	}
 	
