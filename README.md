@@ -1,7 +1,5 @@
 # Employee Directory WebApp in Spring Boot
 
-For a working demo of the app, click [this](http://employeedirectory.ap-south-1.elasticbeanstalk.com) link.   
-
 **Use the username "John", and password "fun123" to view all employees.**  
 
 A web app developed in Spring Boot, and features CRUD operations on a Employee entity, and uses Spring Boot Data JPA for all DB operations.
