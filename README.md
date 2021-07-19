@@ -2,6 +2,8 @@
 
 **Use the username "John", and password "fun123" to view all employees.**  
 
+To check out preview of working app, follow [this](https://emp-directory-webapp.herokuapp.com/employees/list) link
+
 A web app developed in Spring Boot, and features CRUD operations on a Employee entity, and uses Spring Boot Data JPA for all DB operations.
 
 The application uses *Thymeleaf* as template engine, and also some bootstrap css styles for a simple, yet intuitive web application.
